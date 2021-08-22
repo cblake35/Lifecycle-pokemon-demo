@@ -15,6 +15,7 @@
   background-color: red;
   border-color: white;
   border-radius: 10px;
+  display: block;
 }
 
 .timer{ 
@@ -30,11 +31,29 @@
 
 .pokeImg {
   width: 500px;
+  filter: brightness(0);
+  margin-top: 20px;
+}
+
+.showPokeImg {
+  margin-top: 25px;
+  filter: brightness(100%);
 }
 
 .pokeName {
   font-family: 'Press Start 2P', cursive;
+  font-size: 3em;
   text-transform: uppercase;
   margin-top: -50px;
 }
 
+.nameBlock {
+  display: block;
+  padding-top: 100px;
+}
+
+.titleIntro {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+  text-transform: uppercase;
+}
